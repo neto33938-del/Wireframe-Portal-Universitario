@@ -1,0 +1,34 @@
+Visão Geral:
+Trata-se de uma interface de back-office (área restrita a gestores) projetada para centralizar o controle de acessos de um sistema. O foco do protótipo é a organização de dados, usabilidade fluida e clareza na exibição de privilégios, garantindo que o administrador possa gerenciar quem entra na plataforma e o que cada pessoa pode fazer.
+
+Estrutura Típica e Funcionalidades (O que o protótipo deve conter):
+
+Listagem Geral (Tabela de Usuários):
+
+O coração do painel. Uma tabela de dados limpa que exibe informações cruciais: Foto/Avatar, Nome, E-mail, Grupo/Cargo (Role), Status (Ativo, Inativo, Pendente) e Último Acesso.
+
+Controles: Barra de pesquisa (busca por texto), filtros (por cargo ou status) e paginação.
+
+Ações: Botões ou ícones em cada linha da tabela para Editar, Bloquear, Excluir ou Redefinir Senha.
+
+Módulo de Permissões (RBAC - Controle de Acesso por Funções):
+
+Uma tela ou aba dedicada à criação de "Perfis de Acesso" (Ex: Administrador, Editor, Leitor).
+
+Uma matriz visual (geralmente usando switches/toggles ou checkboxes) que permite ligar e desligar permissões granulares (Criar, Visualizar, Editar, Deletar) para cada módulo do sistema.
+
+Formulários e Modais de Ação:
+
+Adicionar Novo Usuário: Um formulário slide-over (que desliza da lateral) ou um modal central solicitando dados do usuário e a atribuição imediata do seu nível de permissão.
+
+Feedbacks do Sistema: Modais de confirmação para ações destrutivas (ex: "Deseja realmente revogar o acesso deste usuário?") e alertas de sucesso (Toast notifications).
+
+Aspectos Visuais e de UI (Interface):
+
+Layout: Navegação lateral (Sidebar) para os menus do painel e uma área de conteúdo principal ampla.
+
+Cores Semânticas: Uso estratégico de cores para indicar o estado do usuário (Verde = Ativo, Vermelho = Bloqueado/Inativo, Cinza = Pendente).
+
+Tipografia e Espaçamento: Design focado em legibilidade (textos sem serifas) e respiro entre os elementos para que a tabela não pareça sobrecarregada visualmente.
+
+(LINK DO PROTÓTIPO):https://www.figma.com/design/diM5XVZS7MuxWAFbizpZjh/Painel-Administrativo-de-Usu%C3%A1rios-e-Permiss%C3%B5es?node-id=0-1&t=P90imWHbo82GbAGO-1
